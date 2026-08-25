@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548}") = "NovaAgent", "src\NovaAgent\NovaAgent.csproj", "{A3849D7B-37E5-48E0-9B85-2CA29F4581B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3849D7B-37E5-48E0-9B85-2CA29F4581B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3849D7B-37E5-48E0-9B85-2CA29F4581B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3849D7B-37E5-48E0-9B85-2CA29F4581B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3849D7B-37E5-48E0-9B85-2CA29F4581B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

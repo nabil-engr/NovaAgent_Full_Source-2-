@@ -1,0 +1,42 @@
+{
+  "project": "NovaAgent",
+  "version": "2.0.0",
+  "validated_date": "2026-08-25",
+  "csharp_files": 21,
+  "features_checked": [
+    "pinned official prebuilt whisper.cpp v1.9.2 runtime",
+    "offline multilingual base model",
+    "wake word and conversation window",
+    "contextual folder and bounded asynchronous file search",
+    "system, media, app, browser, and keyboard controls",
+    "protected shutdown, restart, and sleep confirmation",
+    "tray, minimized auto-start, and second-instance activation",
+    "safe-mode startup and first-run microphone privacy",
+    "atomic cached settings with corrupt-file recovery",
+    "bounded history, rotating logs, and stale audio cleanup",
+    "exponential voice-engine recovery and fast health checks",
+    "expanded diagnostics",
+    "self-contained optimized win-x64 publish",
+    "professional per-user Setup.exe, upgrade, and uninstall",
+    "optional desktop shortcut and Windows startup task",
+    "release SHA-256 manifest and optional code signing",
+    "portable ZIP distribution"
+  ],
+  "validation": {
+    "release_publish": "PASS - 0 warnings, 0 errors",
+    "powershell_parse": "PASS",
+    "whisper_runtime_startup": "PASS",
+    "application_safe_mode_startup": "PASS",
+    "single_instance_activation": "PASS",
+    "silent_installer_payload": "PASS",
+    "silent_uninstall_cleanup": "PASS",
+    "release_integrity": "PASS"
+  },
+  "installer": {
+    "file": "publish/installer/NovaAgent-Setup-2.0.0-win-x64.exe",
+    "sha256": "c3289e16c09be0630878fd01641b1c6825fe77a5853690801a0c931ef61b465c",
+    "signed": false,
+    "signature_note": "A trusted code-signing certificate was not available in this environment."
+  },
+  "target": "net10.0-windows10.0.19041.0/win-x64"
+}

@@ -1,0 +1,2 @@
+Run scripts/setup-whisper.ps1.
+It will place whisper-server.exe, required DLLs, and ggml-base.bin in this folder.

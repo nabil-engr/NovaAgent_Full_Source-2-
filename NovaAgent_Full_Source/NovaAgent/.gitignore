@@ -1,0 +1,12 @@
+bin/
+obj/
+.vs/
+.idea/
+.tools/
+publish/
+*.user
+*.suo
+src/NovaAgent/runtime/whisper/*.exe
+src/NovaAgent/runtime/whisper/*.dll
+src/NovaAgent/runtime/whisper/*.bin
+!src/NovaAgent/runtime/whisper/PLACE_RUNTIME_HERE.txt
